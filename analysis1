@@ -1,0 +1,26 @@
+Task 1. Total confirmed cases (OK)
+
+Executar o SQL a seguir:
+
+SELECT SUM(cumulative_confirmed) as total_cases_worldwide
+FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
+WHERE
+date = '2020-06-10' —-<Date>
+
+Task 2. Worst affected areas (OK)
+
+SELECT COUNT(subregion1_name) as count_of_states
+FROM (
+  SELECT
+  subregion1_name, SUM(cumulative_deceased) as sum_cumulative_deceased
+  FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
+  WHERE
+  country_name = 'United States of America'
+  AND subregion1_name IS NOT NULL
+  --AND subregion2_name IS NOT NULL #Não é requisito no enunciado, somente usar se não funcionar sem.
+  AND cumulative_deceased IS NOT NULL --Opção de trocar por '>0'
+  AND DATE = '2020-03-23' --<date> fornecida no exercício
+  GROUP BY subregion1_name
+  HAVING sum_cumulative_deceased > 30 --<num> fornecido no exercício
+  ORDER BY 1
+) subquery_alias;
