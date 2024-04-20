@@ -15,4 +15,4 @@ This project consists of a series of analysis over the Covid19 repository to hav
 BigQuery is Google Cloud's fully managed, petabyte-scale, and cost-effective analytics data warehouse that lets you run analytics over vast amounts of data in near real time. With BigQuery, there's no infrastructure to set up or manage, letting you focus on finding meaningful insights using GoogleSQL and taking advantage of flexible pricing models across on-demand and flat-rate options. More information about BigQuery can be found at https://cloud.google.com/bigquery/docs.
 
 ## Part 1 - Understanding the Covid19 dataset
-![Captura de tela 2024-04-20 174650](https://github.com/christianghama/Covid19/assets/139920914/095576c8-8120-4d1c-beea-5633a082509d)
+
