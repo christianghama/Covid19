@@ -17,6 +17,13 @@ BigQuery is Google Cloud's fully managed, petabyte-scale, and cost-effective ana
 ## Part 1 - Understanding the Covid19 dataset
 The screenshot below provides some interesting information about this dataset:
 
-!(images/Captura de tela 2024-04-20 174650.png)
+![dataset](images/covid19_dataset_details.png)
 
-We can see that the dataset has an incredible number of **22.756.333 lines!**
+By the image we can see that the dataset:
+* It is up to date with the date I wrote this article, which means it has been maitained by a pipeline (field 'Last modified')
+* It is configured to never expire (field 'Table expiry')
+* It is located in the cloud servers based in US (field 'Data location')
+* It has an incredible number of **22.756.333 (22,7 million) lines!**
+* It allocates (up to date) 11,71 GB of logical and 261,32 GB of physical space.
+
+OK, that's a really interesting dataset! So let's go to do some analysis over it!
