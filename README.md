@@ -29,4 +29,8 @@ By the image we can see that the dataset:
 In the same place of BigQuery it also possible to check the dataset's SCHEMA, which seems to have more than **a hundred fields!**, showing how really complex it is:
 ![schema](images/covid19_dataset_schema.png)
 
+Finally, let's have a preview of the data by clicking in the 'Preview' tab:
+
+![preview](images/covid19_dataset_preview.png)
+
 OK, that's a really interesting dataset! So let's do some analysis over it!
