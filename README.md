@@ -26,4 +26,8 @@ By the image we can see that the dataset:
 * It has an incredible number of **22.756.333 (22,7 million) lines!**
 * It allocates (up to date) 11,71 GB of logical and 261,32 GB of physical space.
 
-OK, that's a really interesting dataset! So let's go to do some analysis over it!
+In the same place of BigQuery it also possible to check the dataset's SCHEMA, which seems to have more than **a hundred fields!**, showing how really complex it is:
+
+
+
+OK, that's a really interesting dataset! So let's do some analysis over it!
