@@ -27,7 +27,6 @@ By the image we can see that the dataset:
 * It allocates (up to date) 11,71 GB of logical and 261,32 GB of physical space.
 
 In the same place of BigQuery it also possible to check the dataset's SCHEMA, which seems to have more than **a hundred fields!**, showing how really complex it is:
-
-
+![schema](images/covid19_dataset_schema.png)
 
 OK, that's a really interesting dataset! So let's do some analysis over it!
