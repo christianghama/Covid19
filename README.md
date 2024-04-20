@@ -17,6 +17,6 @@ BigQuery is Google Cloud's fully managed, petabyte-scale, and cost-effective ana
 ## Part 1 - Understanding the Covid19 dataset
 The screenshot below provides some interesting information about this dataset:
 
-[!image](https://github.com/christianghama/Covid19/blob/main/images/Captura%20de%20tela%202024-04-20%2017)
+!(images/Captura de tela 2024-04-20 174650.png)
 
 We can see that the dataset has an incredible number of **22.756.333 lines!**
