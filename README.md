@@ -1,4 +1,6 @@
 # Covid19
-Data analysis of public covid19 data set using Google Cloud Big Query.
+In this project, I perform some data analyses over the public Covid19 repository published by Google using Google Cloud Big Query.
 
-![teste-google-cloud](https://github.com/christianghama/Covid19/assets/139920914/02f6acc7-8cdb-4754-94a8-fffbf7d6cf5f)
+The repository, which is available at https://console.cloud.google.com/marketplace/product/bigquery-public-datasets/covid19-open-data, contains country-level datasets of daily time-series data related to COVID-19 globally. It includes data relating to demographics, economy, epidemiology, geography, health, hospitalizations, mobility, government response, and weather.
+
+
